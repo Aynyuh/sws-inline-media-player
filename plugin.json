@@ -1,0 +1,35 @@
+{
+  "name": "Inline Media Player",
+  "id": "inline-media-player-plugin",
+  "script": "script.js",
+  "options": [
+    {
+      "id": "autoplay",
+      "name": "Autoplay",
+      "description": "Add autoplay option to the video player. In modern browsers the autoplay functionality doesn't work when player is not muted. Default to <code>true</code>",
+      "type": "bool",
+      "default": true
+    },
+    {
+      "id": "muted",
+      "name": "Muted",
+      "description": "Player's initial state is muted. Default to <code>true</code>.",
+      "type": "bool",
+      "default": true
+    },
+    {
+      "id": "filetypes",
+      "name": "File Types",
+      "description": "Comma-separated list of extensions to process with the plugin as inline media. Default to <code>.mp4,.mov,.avi,.mkv,.mp3</code>",
+      "type": "string",
+      "default": ".mp4,.mov,.avi,.mkv,.mp3"
+    },
+    {
+      "id": "background",
+      "name": "Background Color",
+      "description": "Player's webpage background color. Can be any CSS-compatible value. Default to <code>#17202A</code>",
+      "type": "string",
+      "default": "#17202A"
+    }
+  ]
+}
